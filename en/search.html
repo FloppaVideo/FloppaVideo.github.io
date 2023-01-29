@@ -1,0 +1,14 @@
+<html>
+<script>
+    document.cookie = "style=dark;";
+    if (document.cookie.includes("style=dark")) {
+        document.location.href = "search.darkmode.html";
+    } else if (document.cookie.includes("style=light")) {
+        document.location.href = "search.lightmode.html";
+    } else {
+        //document.location.href = "search.lightmode.html";
+    }
+
+</script>
+
+</html>
