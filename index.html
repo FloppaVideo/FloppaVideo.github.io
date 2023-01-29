@@ -1,0 +1,16 @@
+<html>
+<script>
+    document.cookie = "style=dark;";
+    if (document.cookie.includes("style=dark")) {
+        document.location.href = "index.darkmode.html";
+    } else if (document.cookie.includes("style=light")) {
+        document.location.href = "index.lightmode.html";
+    } else {
+        //document.location.href = "index.lightmode.html";
+    }
+
+</script>
+
+<h1>Unable to to find style</h1>
+
+</html>
