@@ -1,1 +1,3 @@
-# not-youtube-revival.github.io
+# Not-Youtube-Revival
+
+**Warning**: Bugs are normal because this is in development
