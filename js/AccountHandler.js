@@ -1,7 +1,7 @@
-var username;
-var userID;
+const name = document.getElementById('name').value;
+const email = document.getElementById('email').value;
+const password = document.getElementById('pass').value;
 
-function saveCookie(){
-  //Login cookie
-  document.cookie = "user=userID; max_age=604800";
-}
+document.cookie = "user=" +name+ "; max_age=604800";
+document.cookie = "email=" +email+ "; max_age=604800";
+document.cookie = "password=" +password+ "; max_age=604800";
